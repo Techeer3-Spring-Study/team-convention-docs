@@ -22,6 +22,9 @@
 - 좋은 코드를 위한 자바 변수명 / 메소드 네이밍
     - [https://tecoble.techcourse.co.kr/post/2020-04-24-variable_naming/](https://tecoble.techcourse.co.kr/post/2020-04-24-variable_naming/)
     - [https://tecoble.techcourse.co.kr/post/2020-04-26-Method-Naming/](https://tecoble.techcourse.co.kr/post/2020-04-26-Method-Naming/)
+### DB
+- 네이밍 규칙
+	- https://killu.tistory.com/52
 
 ## Github Issue Convention
 - 각 스프린트에 맞게 이슈를 발급한다
