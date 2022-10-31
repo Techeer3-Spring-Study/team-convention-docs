@@ -13,6 +13,9 @@
 
 ## Code Convention
 ### Frontend
+- 클린코드 자바스크립트 / 타입스크립트
+	- https://github.com/ryanmcdermott/clean-code-javascript
+	- https://github.com/738/clean-code-typescript
 ### Backend
 - 캠퍼스 핵데이 java 코딩 컨벤션
     - [https://naver.github.io/hackday-conventions-java/](https://naver.github.io/hackday-conventions-java/)
