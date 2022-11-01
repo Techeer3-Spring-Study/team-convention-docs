@@ -1,30 +1,26 @@
 ## Commit message Convention
-- Message Type List
-    ![image](https://user-images.githubusercontent.com/96467030/198984702-a7dfecfa-f123-4cde-aaeb-97a74f0ecfec.png)
-    - 코드를 수정한 경우 Modify Type 사용
-    - Github issue 번호에 따라 다음과 같은 규칙으로 작성한다.
-        - issue number 26 → [Type]: #[issue number] [commit message]
-    - Type은 현재 시제로 작성하도록 한다.
-    - Message는 무엇을 했으며 왜 했는지 적어준다.
-        - 다만 우리는 ‘왜’에 대해서는 깃허브에 커밋 시 작성하지 않도록 한다.
-        - 이에 대해서는 코드 테스트 완료 후 PR에 작성하도록 할 것
-    - **기능 구현 단위로 commit** 하도록 하고, 기능 구현이 완료되면 **반드시 PR 및 코드 리뷰**를 받도록 한다.
-    - [https://seolahchloe.tistory.com/entry/GitHub-깃-커밋-메세지-컨벤션-Git-Commit-Message-Convention](https://seolahchloe.tistory.com/entry/GitHub-%EA%B9%83-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%BB%A8%EB%B2%A4%EC%85%98-Git-Commit-Message-Convention)
+### Message Type List
+![image](https://user-images.githubusercontent.com/96467030/198984702-a7dfecfa-f123-4cde-aaeb-97a74f0ecfec.png)
+- 코드를 수정한 경우 Modify Type 사용
+- Github issue 번호에 따라 다음과 같은 규칙으로 작성한다.
+- issue number 26 → [Type]: #[issue number] [commit message]
+- Type은 현재 시제로 작성하도록 한다.
+- Message는 무엇을 했으며 왜 했는지 적어준다.
+- 다만 우리는 ‘왜’에 대해서는 깃허브에 커밋 시 작성하지 않도록 한다.
+- 이에 대해서는 코드 테스트 완료 후 PR에 작성하도록 할 것
+- **기능 구현 단위로 commit** 하도록 하고, 기능 구현이 완료되면 **반드시 PR 및 코드 리뷰**를 받도록 한다.
+- [Github commit message convention](https://seolahchloe.tistory.com/entry/GitHub-%EA%B9%83-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%BB%A8%EB%B2%A4%EC%85%98-Git-Commit-Message-Convention)
 
 ## Code Convention
 ### Frontend
-- 클린코드 자바스크립트 / 타입스크립트
-	- https://github.com/ryanmcdermott/clean-code-javascript
-	- https://github.com/738/clean-code-typescript
+- [클린코드 자바스크립트](https://github.com/ryanmcdermott/clean-code-javascript)
+- [클린코드 타입스크립트](https://github.com/738/clean-code-typescript)
 ### Backend
-- 캠퍼스 핵데이 java 코딩 컨벤션
-    - [https://naver.github.io/hackday-conventions-java/](https://naver.github.io/hackday-conventions-java/)
-- 좋은 코드를 위한 자바 변수명 / 메소드 네이밍
-    - [https://tecoble.techcourse.co.kr/post/2020-04-24-variable_naming/](https://tecoble.techcourse.co.kr/post/2020-04-24-variable_naming/)
-    - [https://tecoble.techcourse.co.kr/post/2020-04-26-Method-Naming/](https://tecoble.techcourse.co.kr/post/2020-04-26-Method-Naming/)
+- [캠퍼스 핵데이 Java 코딩 컨벤션](https://naver.github.io/hackday-conventions-java/)
+- [좋은 코드를 위한 자바 변수명 네이밍](https://tecoble.techcourse.co.kr/post/2020-04-24-variable_naming/)
+- [좋은 코드를 위한 자바 메소드 네이밍](https://tecoble.techcourse.co.kr/post/2020-04-26-Method-Naming/)
 ### DB
-- 네이밍 규칙
-	- https://killu.tistory.com/52
+- [MySQL 네이밍 규칙](https://killu.tistory.com/52)
 
 ## Github Issue Convention
 - 각 스프린트에 맞게 이슈를 발급한다
