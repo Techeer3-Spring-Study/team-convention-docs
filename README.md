@@ -3,13 +3,14 @@
 ![image](https://user-images.githubusercontent.com/96467030/198984702-a7dfecfa-f123-4cde-aaeb-97a74f0ecfec.png)
 - 코드를 수정한 경우 Modify Type 사용
 - Github issue 번호에 따라 다음과 같은 규칙으로 작성한다.
-- issue number 26 → [Type]: #[issue number] [commit message]
-- Type은 현재 시제로 작성하도록 한다.
+- issue number 26 → [Type]: #[issue number] [commit message] [message body]
+- Type은 현재 시제로 작성하도록 하며, 대문자로 작성하지 않는다.
 - Message는 무엇을 했으며 왜 했는지 적어준다.
 - 다만 우리는 ‘왜’에 대해서는 깃허브에 커밋 시 작성하지 않도록 한다.
-- 이에 대해서는 코드 테스트 완료 후 PR에 작성하도록 할 것
-- **기능 구현 단위로 commit** 하도록 하고, 기능 구현이 완료되면 **반드시 PR 및 코드 리뷰**를 받도록 한다.
-- [Github commit message convention](https://seolahchloe.tistory.com/entry/GitHub-%EA%B9%83-%EC%BB%A4%EB%B0%8B-%EB%A9%94%EC%84%B8%EC%A7%80-%EC%BB%A8%EB%B2%A4%EC%85%98-Git-Commit-Message-Convention)
+- 이에 대해서는 코드 테스트 완료 후 PR에 작성하도록 할 것  
+![image](https://user-images.githubusercontent.com/96467030/200120111-6b186c72-c2af-4769-a669-efc1335b4938.png)
+- **기능 구현 단위로 commit** 하도록 하고, 기능 구현이 완료되면 반드시 PR 및 코드 리뷰를 받도록 한다
+- [AngluarJS commit convention (번역본)](https://velog.io/@outstandingboy/Git-커밋-메시지-규약-정리-the-AngularJS-commit-conventions#커밋-메시지-헤더-commit-message-header)
 
 ## Code Convention
 ### Frontend
