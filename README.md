@@ -62,14 +62,14 @@
     Hooks and filters directory? [/Users/hee/Desktop/git-flow/.git/hooks]
     ```
     
-- 다음과 같이 6개의 브랜치가 생성된다.
+- 다음과 같이 6개의 브랜치 prefix 가 생성된다. (향후 개발 시 브랜치명 앞에 다음과 같은 prefix를 붙여준다.)
     - main (master) : 사용자에게 배포되는 Stable 브랜치
     - develop : 다음 릴리즈를 위해 기능들을 모으는 최신 브랜치
     - feature : 특정 기능 개발을 위한 브랜치
     - release : 릴리즈를 위해 버그 픽스 (Bug fix)를 모으는 브랜치
     - hotfix : 긴급 버그 픽스를 위한 브랜치
     - support : 버전 호환성 문제를 위한 브랜치
-- 새로운 개발 브랜치 feature 브랜치 생성
+- 새로운 개발 브랜치 feature 브랜치 생성 예시
     
     ```bash
     git flow feature start {branchName}
