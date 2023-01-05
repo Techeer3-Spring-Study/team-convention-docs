@@ -26,12 +26,69 @@
 - 완료, 진행중, 오류 3개의 라벨을 달아 현재 스프린트의 상태를 표시한다.
 - 완료된 이슈는 PR 확인 후 Close 한다.
 ![image](https://user-images.githubusercontent.com/96467030/198984745-f80becbd-07f4-483c-b810-bb9b41c7364c.png)
-## Github Branch Convention
+## Github Branch Convention - Git flow 사용방법
+- Mac OS 사용자의 경우 git flow 설치
+    
+    ```bash
+    brew install git-flow-avh
+    ```
+    
+- Windows OS 사용자의 경우 다음과 같이 설치
+    
+    ```bash
+    wget -q -O - --no-check-certificate
+    https://raw.github.com/petervanderdoes/gitflow-avh/develop/contrib/gitflow-installer.sh 
+    install stable | bash
+    ```
+    
+- git flow에 맞게 저장소 초기화
+    
+    ```bash
+    git flow init
+    
+    Which branch should be used for bringing forth production releases?
+       - main
+    Branch name for production releases: [main] 
+    Branch name for "next release" development: [develop] 
+    
+    # 별도의 설정 없이 엔터를 누른다.
+    How to name your supporting branch prefixes?
+    Feature branches? [feature/] 
+    Bugfix branches? [bugfix/] 
+    Release branches? [release/] 
+    Hotfix branches? [hotfix/] 
+    Support branches? [support/] 
+    Version tag prefix? []
+    Hooks and filters directory? [/Users/hee/Desktop/git-flow/.git/hooks]
+    ```
+    
+- 다음과 같이 6개의 브랜치가 생성된다.
+    - main (master) : 사용자에게 배포되는 Stable 브랜치
+    - develop : 다음 릴리즈를 위해 기능들을 모으는 최신 브랜치
+    - feature : 특정 기능 개발을 위한 브랜치
+    - release : 릴리즈를 위해 버그 픽스 (Bug fix)를 모으는 브랜치
+    - hotfix : 긴급 버그 픽스를 위한 브랜치
+    - support : 버전 호환성 문제를 위한 브랜치
+- 새로운 개발 브랜치 feature 브랜치 생성
+    
+    ```bash
+    git flow feature start {branchName}
+    ```
+    
+    - 해당 명령어를 입력하면 feature/branchName의 브랜치가 생성된다.
+- 해당 브랜치에 commit 하기
+    
+    ```bash
+    git add .
+    git commit -m "commit message"
+    git push origin feature/branchName
+    ```
+    
+- 모든 기능 구현 후 PR 후 Merge 시 해당 브랜치를 삭제한다.
 
-- branch 생성 시에도 커밋 메시지와 같은 방식으로 작성한다.
-- feature/#issueNumber-branchName
-- 브랜치 이름에는 띄어쓰기 대신 -를 사용한다.
-- 웬만하면 이슈 제목과 일치시키는 것이 좋다.
+#### 참고 자료
+[우아한 형제들 기술블로그 - 우린 Git-flow를 사용하고 있어요](https://techblog.woowahan.com/2553/)  
+[Git-Flow & Commit message & Issue 이용해서 협업하기](https://velog.io/@u-nij/Git-Flow-Commit-message-Issue-%EC%9D%B4%EC%9A%A9%ED%95%B4%EC%84%9C-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0)
 
 ## PR 및 Branch 생성 시 주의 사항
 
