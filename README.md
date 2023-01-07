@@ -76,6 +76,18 @@
     ```
     
     - 해당 명령어를 입력하면 feature/branchName의 브랜치가 생성된다.
+- PR 기능을 사용하려면 우선 리모트 저장소에 push 가 되어있어야 한다.
+    
+    ```
+    git flow feature publish <feature name>
+    ```
+    
+    - publish 명령을 수행하면 원격저장소에 feature브랜치를 push 한다.
+- 반대로 원격 저장소에서 feature 브랜치를 가져오려면 다음 명령어를 사용한다.
+    
+    ```
+    git flow feature pull origin <feature name>
+    ```
 - 해당 브랜치에 commit 하기
     
     ```bash
