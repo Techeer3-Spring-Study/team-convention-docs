@@ -81,7 +81,7 @@
     ```bash
     git add .
     git commit -m "commit message"
-    git push origin feature/branchName
+    git flow feature publish {branchName}
     ```
     
 - 모든 기능 구현 후 PR 후 Merge 시 해당 브랜치를 삭제한다.
