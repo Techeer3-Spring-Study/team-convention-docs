@@ -3,7 +3,7 @@
 ![image](https://user-images.githubusercontent.com/96467030/198984702-a7dfecfa-f123-4cde-aaeb-97a74f0ecfec.png)
 - 코드를 수정한 경우 Modify Type 사용
 - Github issue 번호에 따라 다음과 같은 규칙으로 작성한다.
-- issue number 26 → [Type]: #[issue number] [commit message] [message body]
+- issue number 26 → [Type]: [#[issue number]] [commit message] [message body]
 - Type은 현재 시제로 작성하도록 하며, 대문자로 작성하지 않는다.
 - Message는 무엇을 했으며 왜 했는지 적어준다.
 ![image](https://user-images.githubusercontent.com/96467030/200120111-6b186c72-c2af-4769-a669-efc1335b4938.png)
